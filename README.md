@@ -22,7 +22,7 @@ You can do the challenge on your own 👉 [Clipboard landing page challenge on F
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/clipboard-landing-page---frontend-mentor-xV95KHFJIG)
 - Live Site URL: [Add live site URL here](https://saadarshad19se.github.io/Clipboard-landing-page-master/)
 
 ## My process
