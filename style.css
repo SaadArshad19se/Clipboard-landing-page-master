@@ -58,6 +58,12 @@
         padding: 0;
     }
 
+    /* scroll behaviour becomes smooth */
+
+    html {
+        scroll-behavior: smooth;
+    }
+
     /* Prevent font size inflation */
     html {
     -moz-text-size-adjust: none;
@@ -79,7 +85,7 @@
 
     /* Set core body defaults */
     body {
-        min-height: 100vh;
+        min-height: 100dvh;
         line-height: 1.5;
     }
 
@@ -174,14 +180,6 @@
     h1 {
         font-size: var(--fs-primary-heading);
         text-wrap: balance;
-    }
-
-    /* text wrap {off} becuase of unnecessary wrap in larger devices */
-
-    @media(min-width: 50em) {
-        h1 {
-            text-wrap: nowrap;
-        }
     }
 
     h2 {
@@ -402,7 +400,7 @@
         color: var(--clr-neutral-100);
 
         cursor: pointer;
-        transition: opacity 150ms ease-out;
+        transition: opacity 150ms ease-out, transform 300ms ease-out;
     }
 
     .button[data-type="diverse"] {
@@ -411,6 +409,7 @@
     }
 
     .button:is(:hover, :focus-visible) {
+        transform: translateY(-.75rem);
         opacity: .75;
     }
 
