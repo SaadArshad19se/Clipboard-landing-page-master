@@ -173,14 +173,14 @@
 
     h1 {
         font-size: var(--fs-primary-heading);
-        text-wrap: nowrap;
+        text-wrap: balance;
     }
 
-    /* text wrap balance for heading one only you can see why ? in design */
+    /* text wrap {off} becuase of unnecessary wrap in larger devices */
 
-    @media(max-width: 50em) {
+    @media(min-width: 50em) {
         h1 {
-            text-wrap: balance;
+            text-wrap: nowrap;
         }
     }
 
@@ -213,7 +213,7 @@
     /* primary header */
 
     .primary-header {
-        margin-block-start: 5rem;
+        margin-block-start: min(4.5rem, 5rem);
         margin-block-end: 1rem;
     }
 
@@ -311,7 +311,7 @@
     .call-to-action {
         --grid-gap: 3.5rem;
 
-        margin-bottom: 5rem;
+        margin-block-end: 5rem;
     }
 
     /* footer */

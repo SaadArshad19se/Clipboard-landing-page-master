@@ -1,6 +1,6 @@
 # Frontend Mentor - Clipboard landing page solution
 
-You can do the challenge on your own >> [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Frontend Mentor 
+You can do the challenge on your own 👉 [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Frontend Mentor 
 
 ## Table of contents
 
@@ -23,7 +23,7 @@ You can do the challenge on your own >> [Clipboard landing page challenge on Fro
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://saadarshad19se.github.io/Clipboard-landing-page-master/)
 
 ## My process
 
